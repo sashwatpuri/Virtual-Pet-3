@@ -118,14 +118,14 @@
 
     if(CT === (LastFed + 1)){
       update("Playing");
-      BG.bedroom();
+      foodobject.bedroom();
       rect(100,200,200,200);
     }else if(CT === (LastFed+2)){
       update("Sleeping");
-      BG.bedroom();
+      foodobject.bedroom();
     }else if(CT > (LastFed + 2 ) && CT <= (LastFed + 4)){
       update("Bathing");
-      BG.washroom();
+      foodobject.washroom();
     }else{
       update("Hungry");
       
